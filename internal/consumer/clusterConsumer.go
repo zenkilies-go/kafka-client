@@ -28,10 +28,10 @@ import (
 	"time"
 
 	"github.com/bsm/sarama-cluster"
-	"github.com/uber-go/kafka-client/internal/metrics"
-	"github.com/uber-go/kafka-client/internal/util"
-	"github.com/uber-go/kafka-client/kafka"
 	"github.com/uber-go/tally"
+	"github.com/zenkilies-go/kafka-client/internal/metrics"
+	"github.com/zenkilies-go/kafka-client/internal/util"
+	"github.com/zenkilies-go/kafka-client/kafka"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

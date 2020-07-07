@@ -23,8 +23,8 @@ package kafkaclient
 import (
 	"os"
 
-	"github.com/uber-go/kafka-client/kafka"
 	"github.com/uber-go/tally"
+	"github.com/zenkilies-go/kafka-client/kafka"
 	"go.uber.org/zap"
 )
 

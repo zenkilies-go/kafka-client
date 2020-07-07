@@ -28,8 +28,8 @@ import (
 
 	"github.com/Shopify/sarama"
 	cluster "github.com/bsm/sarama-cluster"
-	"github.com/uber-go/kafka-client/internal/util"
-	"github.com/uber-go/kafka-client/kafka"
+	"github.com/zenkilies-go/kafka-client/internal/util"
+	"github.com/zenkilies-go/kafka-client/kafka"
 	"go.uber.org/zap/zapcore"
 )
 

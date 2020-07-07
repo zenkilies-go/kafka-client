@@ -28,9 +28,9 @@ import (
 	"github.com/Shopify/sarama"
 	"github.com/bsm/sarama-cluster"
 	"github.com/stretchr/testify/suite"
-	"github.com/uber-go/kafka-client/internal/consumer"
-	"github.com/uber-go/kafka-client/kafka"
 	"github.com/uber-go/tally"
+	"github.com/zenkilies-go/kafka-client/internal/consumer"
+	"github.com/zenkilies-go/kafka-client/kafka"
 	"go.uber.org/zap"
 )
 

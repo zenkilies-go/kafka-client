@@ -113,6 +113,20 @@
   version = "v1.2.1"
 
 [[projects]]
+  digest = "1:36921d9941c9058a3c989a2d60c02d93c50392e726f9418be257b6e5f194f8b8"
+  name = "github.com/zenkilies-go/kafka-client"
+  packages = [
+    "internal/consumer",
+    "internal/list",
+    "internal/metrics",
+    "internal/util",
+    "kafka",
+  ]
+  pruneopts = "UT"
+  revision = "be56bf4e711245701de362714ee898d1ad621f39"
+  version = "v0.2.2"
+
+[[projects]]
   digest = "1:84e66ba70567c8e4563aee2ffaef251458cba0de67ae61f9c01deb1755c2ffeb"
   name = "github.com/uber-go/tally"
   packages = ["."]
@@ -161,6 +175,11 @@
     "github.com/stretchr/testify/assert",
     "github.com/stretchr/testify/require",
     "github.com/stretchr/testify/suite",
+    "github.com/zenkilies-go/kafka-client/internal/consumer",
+    "github.com/zenkilies-go/kafka-client/internal/list",
+    "github.com/zenkilies-go/kafka-client/internal/metrics",
+    "github.com/zenkilies-go/kafka-client/internal/util",
+    "github.com/zenkilies-go/kafka-client/kafka",
     "github.com/uber-go/tally",
     "go.uber.org/zap",
     "go.uber.org/zap/zapcore",

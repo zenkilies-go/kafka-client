@@ -25,9 +25,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/uber-go/kafka-client/internal/list"
-	"github.com/uber-go/kafka-client/internal/metrics"
 	"github.com/uber-go/tally"
+	"github.com/zenkilies-go/kafka-client/internal/list"
+	"github.com/zenkilies-go/kafka-client/internal/metrics"
 	"go.uber.org/zap"
 )
 
